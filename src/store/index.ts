@@ -3,7 +3,6 @@ import { configureStore } from '@reduxjs/toolkit'
 import carrinhoReducer from './redurcers/carrinho'
 
 import api from '../services/api'
-import { buildGetDefaultMiddleware } from '@reduxjs/toolkit/dist/getDefaultMiddleware'
 
 export const store = configureStore({
   reducer: {
